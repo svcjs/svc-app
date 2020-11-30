@@ -1,0 +1,14 @@
+{
+  "name": "svc-app",
+  "version": "0.0.1",
+  "description": "develop app with iOS、Android、Windows、Mac、Web by a copy of the code",
+  "repository": "...",
+  "main": "index.js",
+  "devDependencies": {
+    "archiver": "^5.1.0",
+    "js-yaml": "^3.14.0"
+  },
+  "scripts": {},
+  "author": "",
+  "license": "ISC"
+}
