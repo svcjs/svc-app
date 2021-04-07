@@ -29,6 +29,7 @@ window.$ = (id, from) => {
     if (!id) return document.body
     if (typeof id !== 'string') return id
     if (!from) from = document.body
+    if (typeof from === 'string') from = $(from)
     return from.querySelector(id)
 }
 
